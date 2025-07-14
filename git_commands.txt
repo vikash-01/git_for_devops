@@ -1,0 +1,23 @@
+  0.089 Get-ChildItem -Attributes Hidden
+   3        0.309 git status
+   4        0.024 dir
+   5        0.329 directory
+   6        0.004 ls
+   7        0.035 Get-ChildItem -File…
+   8        0.057 Get-ChildItem -Directory…
+   9        0.216 git status
+  10        0.254 git add testing.py
+  11        0.178 git status
+  12        0.212 git rm --cached testing.py
+  13        0.167 git status
+  14        0.193 git add .
+  15        0.169 git status
+  16        0.252 git commit -m "added testing files"
+  17        0.179 git config --global user.email "vscri@MSI.(none)"
+  18        0.417 git commit -m "added testing files"
+  19        0.179 git status
+  20        0.050 rm testing.py
+  21        0.002 ls
+  22        0.046 get-ChildItem -Directory
+  23        0.046 get-ChildItem
+  24        0.178 git status
